@@ -49,6 +49,10 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 import webapisampleIconURL from './webapisample/webapi.png';
 import webapisampleInsetIconURL from './webapisample/webapi-small.png';
 
+import sankouenzanshiIconURL from './sankouenzanshi/sankouenzanshi.png';
+import sankouenzanshiInsetIconURL from './sankouenzanshi/sankouenzanshi-small.png';
+
+
 export default [
     {
         name: (
@@ -330,6 +334,16 @@ export default [
         description: "You can call Web API.",
         featured: true,
         internetConnectionRequired: true,
+        helpLink: 'http://moonmile.net/'
+    },
+    {
+        name: "Sankouenzanshi Block",
+        extensionId: 'sankouenzanshi',
+        iconURL: sankouenzanshiIconURL,
+        insetIconURL: sankouenzanshiInsetIconURL,
+        collaborator: 'moonmile',
+        description: "Let's use Sankouenzanshi!!!",
+        featured: true,
         helpLink: 'http://moonmile.net/'
     },
 ];
